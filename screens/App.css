@@ -1,0 +1,67 @@
+
+body {
+    background-image: url(IMG_2534.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    margin: 60px auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid {
+    align-items: center;
+    margin: 50px auto;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    cursor: pointer;
+    display: none;
+}
+
+th,
+td {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.water {
+    background-color: #2eb9e7;
+    opacity: 0.5;
+}
+
+
+.barquito,
+.agua {
+    width: 50%;
+    height: 50%;
+
+}
+
+button {
+    background-color: yellow;
+    border-radius: 50px;
+    color: black;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 30%;
+    height: 30%;
+}
